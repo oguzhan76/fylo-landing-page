@@ -17,7 +17,7 @@ const Testimonial = ({ testi }) => {
             </div>
         </div>
     )
-};
+}
 
 Testimonial.propTypes = {
     testi: PropTpyes.object

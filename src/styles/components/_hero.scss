@@ -24,21 +24,6 @@
         padding-right: 8rem;
         font-size: 2rem;
     }
-
-    .hero-button {
-        background: linear-gradient(90deg, $cyan, $blue);
-        color: $white;
-        font-size: 1.6rem;
-        border-radius: 3rem;
-        border: none;
-        padding: 1.8rem 10rem;
-        margin: 3rem 0;
-    }
-
-    .intro-button:hover {
-        background: hsl(178, 62%, 74%);
-        cursor: pointer;
-    }
 }
 
 .background{

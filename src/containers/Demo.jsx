@@ -24,6 +24,6 @@ const Demo = () => {
         </div>
     </section>
     )
-};
+}
 
 export default Demo;

@@ -18,3 +18,20 @@ body {
     font-family: 'Raleway';
     color: $white;
 }
+
+.button {
+    background: linear-gradient(90deg, $cyan, $blue);
+    color: $white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 3rem;
+    border: none;
+    height: 5.5rem;
+    width: 28rem;
+    margin: 3rem 0;
+}
+
+.button:hover {
+    background: hsl(178, 62%, 74%);
+    cursor: pointer;
+}
