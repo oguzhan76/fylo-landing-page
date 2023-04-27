@@ -12,12 +12,6 @@ const Card = ({ card }) => {
     )
 };
 
-// Card.propTypes = {
-//     title: PropTpyes.string,
-//     body: PropTpyes.string,
-//     image_url: PropTpyes.string
-// }
-
 Card.propTypes = {
     card: PropTpyes.object
 }
