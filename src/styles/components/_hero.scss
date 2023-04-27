@@ -1,16 +1,10 @@
-.main {
-    font-family: 'Raleway';
-    color: $white;
-}
-
-.intro-container {
+.hero-container {
     background-color: $bg_intro;
     position: relative;
     width: 1440px;
 }
 
-.intro {
-    
+.hero {
     max-width: 780px;
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +25,7 @@
         font-size: 2rem;
     }
 
-    .intro-button {
+    .hero-button {
         background: linear-gradient(90deg, $cyan, $blue);
         color: $white;
         font-size: 1.6rem;
@@ -49,7 +43,7 @@
 
 .background{
     background-color: $bg_intro;
-    background-image: url('../assets/images/bg-curvy-desktop.svg');
+    background-image: url('images/bg-curvy-desktop.svg');
     position: absolute;
     top: 73rem;
     left: 0;

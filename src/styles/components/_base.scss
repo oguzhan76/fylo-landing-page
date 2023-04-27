@@ -8,9 +8,13 @@ body {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    // border: 1px solid white;
 }
 
 #root {
     text-align: center;
+}
+
+.main {
+    font-family: 'Raleway';
+    color: $white;
 }

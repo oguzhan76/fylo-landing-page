@@ -1,0 +1,52 @@
+.demo-section{
+    background-color: $bg_main;
+}
+
+.demo-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 11rem;
+
+    .demo-text {
+        align-self: start;
+        text-align: start;
+        margin-left: 6rem;
+        margin-right: 10rem;
+        
+        .demo-text__heading {
+            margin-top: 12rem;
+            font-size: 2rem;
+            line-height: 5rem;
+
+            h1 {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        .demo-text__body{
+            font-size: 1.6rem;
+            margin-top: 2rem;
+        }
+
+        .demo-text__link {
+            margin-top: 2rem;
+
+            a {
+                color: $cyan;
+                font-size: 1.6rem;
+                text-decoration: none;
+                padding-bottom: 1rem;
+                border-bottom: 1px solid $cyan;
+            }
+
+            a:hover {
+                color: $white;
+                border-color: $white;
+                img{
+                    filter: grayscale(100%) brightness(1.3);
+                }
+            }
+        }
+    }
+}

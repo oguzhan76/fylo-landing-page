@@ -1,5 +1,7 @@
-import Header from './components/Header';
-import MainPage from './components/MainPage';
+import Header from './containers/Header';
+import Cards from './containers/Cards';
+import Hero from './containers/Hero';
+import Demo from './containers/Demo';
 import 'sanitize.css';
 import './styles/App.scss';
 
@@ -7,9 +9,11 @@ import './styles/App.scss';
 function App() {
 
   return (
-    <div>
-     <Header/>
-     <MainPage/>
+    <div className='main'>
+      <Header/>
+      <Hero/>
+      <Cards/>
+      <Demo/>
     </div>
   )
 }
