@@ -1,0 +1,30 @@
+.header-container {
+    background-color: $bg_intro;
+}
+
+.header {
+    padding-top: 7.5rem;
+    margin-left: 8rem;
+    margin-right: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Raleway';
+
+    img {
+        align-self: center;
+    }
+
+    button {
+        background-color: rgba($color: #000000, $alpha: 0);
+        border: none;
+        color: hsl(0, 0%, 80%);
+        margin-left: 4.8rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+}
+
+.header__buttons {
+    align-self: center;
+}
