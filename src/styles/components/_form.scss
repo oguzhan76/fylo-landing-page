@@ -59,7 +59,17 @@ $footerLine: 73%;
                 border-radius: 4rem;
                 height: 5rem;
                 width: 20rem;
+                margin-bottom: 0;
             }
         }
     }
+}
+
+.form-error-message {
+    color: red;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 12rem;
+    margin-top: 0.6rem;
 }
