@@ -1,4 +1,5 @@
 import img_hero from '/images/illustration-intro.png';
+import curvy from '/images/bg-curvy-desktop.svg';
 
 const Hero = () => {
     return(
@@ -9,7 +10,7 @@ const Hero = () => {
                 <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
                 <button className='button'>Get Started</button>
             </div>
-            <div className='background'/>
+            <div className='background'><img src={curvy}/></div>
         </section>
     )
 };
