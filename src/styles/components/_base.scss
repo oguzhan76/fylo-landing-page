@@ -2,19 +2,18 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    font-size: 1.4rem;
-    min-width: 1440px;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #root {
+    background-color: $bg_intro;
+    font-size: 1.4rem;
+    width: 100%;
     text-align: center;
 }
 
 .main {
+    min-width: 1440px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Raleway';
     color: $white;
 }
