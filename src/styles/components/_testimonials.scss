@@ -1,5 +1,6 @@
 .testimonials-section {
     background-color: $bg_main;
+    font-family: 'Open sans';
     position: relative;
 
     .testim-quotes {
@@ -22,7 +23,7 @@
 .ref-card {
     background-color: $bg_testimonials;
     margin: 2rem;
-    padding: 2.7rem;
+    padding: 2.5rem;
     max-width: 36rem;
 
     p {
@@ -43,7 +44,7 @@
     }
 
     .ref-card-signature__name {
-    margin-left: 1rem;
+        margin-left: 1rem;
         
         p {
             font-size: 0.9rem;
@@ -55,6 +56,8 @@
         
         small {
             font-size: 0.8rem;
+            margin: 0;
+            padding: 0;
         }
     }
 }

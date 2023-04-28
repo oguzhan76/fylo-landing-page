@@ -1,0 +1,99 @@
+.footer-section {
+    background-color: $bg_footer;
+}
+
+.footer-container {
+    padding-top: 8rem;
+    margin-left: 12rem;
+    font-family: 'Open sans';
+}
+
+.footer-logo {
+    text-align: start;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 40rem 25rem 30rem 20rem;
+    grid-template-rows: 30rem;
+    column-gap: 5rem;
+    margin-top: 1rem;
+
+    .footer-grid__location {
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: 4rem 36rem;
+        grid-template-rows: subgrid;
+
+        img{
+            padding-top: 0.5rem;
+        }
+
+        p{
+            font-size: 1.6rem;
+            margin: 0;
+            text-align: start;
+        }
+    }
+
+    .footer-links {
+        padding-top: 2rem;
+        text-align: start;
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: 15rem 15rem;
+        grid-template-rows: subgrid;
+
+        button {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+.footer-contact {
+    font-family: 'Open sans';
+    text-align: start;
+    padding-top: 2rem;
+    padding-left: 1.4rem;
+    span{
+        padding-right: 2.5rem;
+    }
+
+    p {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+.footer-links{
+    padding-left: 2rem;
+    .text-button {
+        padding-right: 4rem;
+        padding-bottom: 0.4rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .text-button:hover {
+        text-decoration: none;
+    }
+}
+
+.footer-socialmedia-links {
+    text-align: start;
+    padding-top: 2.1rem;
+    padding-left: 2.3rem;
+
+    .text-button {
+        border: 1px solid $white;
+        border-radius: 4rem;
+        font-size: 1.6rem;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1.4rem ;
+    }
+
+    .text-button:hover {
+        border-color: $cyan;
+        color: $cyan;
+    }
+}

@@ -4,7 +4,9 @@
     z-index: 1;    
     margin-top: 13rem;
 }
+
 $card-width: 51rem;
+
 .cards-container {
     display: grid;
     margin-left: auto;
@@ -14,7 +16,6 @@ $card-width: 51rem;
     grid-template-rows: 30rem 30rem;
 
     .card {
-        
         padding-left: 6rem;
         padding-right: 6rem;
 

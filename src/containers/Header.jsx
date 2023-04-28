@@ -6,11 +6,10 @@ const Header = () => {
             <div className='header'>
                 <img src={logo}/>
                 <div className='header__buttons'>
-                    <button>Features</button>
-                    <button>Team</button>
-                    <button>Sign In</button>
+                    <button className='text-button'>Features</button>
+                    <button className='text-button'>Team</button>
+                    <button className='text-button'>Sign In</button>
                 </div>
-
             </div>
         </div>
     )

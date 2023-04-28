@@ -4,6 +4,7 @@ import Hero from './containers/Hero';
 import Demo from './containers/Demo';
 import Testimonials from './containers/Testimonials';
 import FormContainer from './containers/FormContainer';
+import Footer from './containers/Footer';
 import 'sanitize.css';
 import './styles/App.scss';
 
@@ -18,6 +19,7 @@ function App() {
       <Demo/>
       <Testimonials/>
       <FormContainer/>
+      <Footer/>
     </div>
   )
 }

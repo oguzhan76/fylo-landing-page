@@ -1,5 +1,12 @@
+$footerLine: 73%;
 .form-section {
-    background-color: $bg_main;
+    background: linear-gradient(
+        to bottom,
+        $bg_main 0%,
+        $bg_main $footerLine,
+        $bg_footer $footerLine,
+        $bg_footer 100%
+    );
 }
 
 .form-container {
@@ -8,20 +15,23 @@
     
     .form-box {
         background-color: $bg_intro;
-        max-width: 86rem;
+        border-radius: 1rem;
+        max-width: 86.7rem;
+        height: 27.5rem;
 
         .form-text-container {
-            margin: 0 9rem;
+            margin: 0 10rem;
 
-            p {
-                margin: 0 2rem;
-                padding-top: 1.5rem;
-            }
-            
             h1 {
                 font-size: 3.2rem;
                 margin: 0;
-                padding-top: 4.5rem;
+                padding-top: 4rem;
+            }
+
+            p {
+                font-family: 'Open sans';
+                margin: 0 2rem;
+                padding-top: 1.5rem;
             }
         }
 
@@ -39,6 +49,10 @@
                 margin-right: 3rem;
             }
 
+            input:focus {
+                outline: none;
+            }
+
             .button-form {
                 font-size: 1.4rem;
                 font-weight: 400;
@@ -49,7 +63,3 @@
         }
     }
 }
-
-
-
-

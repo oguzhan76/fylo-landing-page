@@ -35,3 +35,17 @@ body {
     background: hsl(178, 62%, 74%);
     cursor: pointer;
 }
+
+.text-button {
+    background-color: rgba($color: #000000, $alpha: 0);
+    border: none;
+    color: hsl(0, 0%, 80%);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.text-button:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
