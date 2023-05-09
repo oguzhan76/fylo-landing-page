@@ -1,4 +1,4 @@
-import quotes from '/images/bg-quotes.png';
+import quotes from '/bg-quotes.png';
 import Testimonial from "../components/Testimonial";
 import testis from "../data/testimonials.json";
 

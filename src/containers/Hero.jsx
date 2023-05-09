@@ -1,5 +1,5 @@
-import img_hero from '/images/illustration-intro.png';
-import curvy from '/images/bg-curvy-desktop.svg';
+import img_hero from '/illustration-intro.png';
+import curvy from '/bg-curvy-desktop.svg';
 
 const Hero = () => {
     return(

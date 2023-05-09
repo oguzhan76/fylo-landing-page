@@ -1,4 +1,4 @@
-import PropTpyes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Card = ({ card }) => {
     return (
@@ -13,7 +13,7 @@ const Card = ({ card }) => {
 };
 
 Card.propTypes = {
-    card: PropTpyes.object
+    card: PropTypes.object
 }
 
 export default Card;

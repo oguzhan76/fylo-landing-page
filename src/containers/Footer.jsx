@@ -1,7 +1,7 @@
-import logo from '/images/logo.svg';
-import icon_location from '/images/icon-location.svg';
-import icon_phone from '/images/icon-phone.svg';
-import icon_email from '/images/icon-email.svg';
+import logo from '/logo.svg';
+import icon_location from '/icon-location.svg';
+import icon_phone from '/icon-phone.svg';
+import icon_email from '/icon-email.svg';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';

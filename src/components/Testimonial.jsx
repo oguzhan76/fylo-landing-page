@@ -1,4 +1,4 @@
-import PropTpyes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Testimonial = ({ testi }) => {
     return (
@@ -20,7 +20,7 @@ const Testimonial = ({ testi }) => {
 }
 
 Testimonial.propTypes = {
-    testi: PropTpyes.object
+    testi: PropTypes.object
 }
 
 export default Testimonial;

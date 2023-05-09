@@ -3,18 +3,18 @@
         "text": "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
         "name": "Satish Patel",
         "title": "Founder & CEO, Huddle",
-        "img_url": "images/profile-1.jpg"
+        "img_url": "/profile-1.jpg"
     },
     {
         "text": "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
         "name": "Bruce McKenzie",
         "title": "Founder & CEO, Huddle",
-        "img_url": "images/profile-2.jpg"
+        "img_url": "/profile-2.jpg"
     },
     {
         "text": "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
         "name": "Iva Boyd",
         "title": "Founder & CEO, Huddle",
-        "img_url": "images/profile-3.jpg"
+        "img_url": "/profile-3.jpg"
     }
 ]

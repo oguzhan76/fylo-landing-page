@@ -1,5 +1,5 @@
-import productive_img from '/images/illustration-stay-productive.png';
-import icon from '/images/icon-arrow.svg';
+import productive_img from '/illustration-stay-productive.png';
+import icon from '/icon-arrow.svg';
 
 const Demo = () => {
     return(
